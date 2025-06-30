@@ -1,0 +1,20 @@
+Flask==3.0.3
+python-dotenv==1.0.1
+SQLAlchemy==2.0.30
+PyPDF2==3.0.1
+python-docx==1.1.2
+pinecone-client==4.1.1
+langdetect==1.0.9
+deep-translator==1.11.4
+openai==1.35.3
+groq==0.9.0
+spacy==3.7.5
+nltk==3.8.1
+rank_bm25
+numpy
+# New additions for advanced RAG
+sentence-transformers==3.0.1
+scikit-learn==1.5.0
+
+# After installing requirements, download the spacy model:
+# python -m spacy download en_core_web_sm
